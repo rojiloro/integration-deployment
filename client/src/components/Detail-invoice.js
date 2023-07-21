@@ -194,7 +194,7 @@ function Detailinvoice() {
               </Col>
               <Col m={6}>
                 <div className={cssModules.wrap2}>
-                  <p>Rp 250.000</p>
+                  <p>Rp {transaction?.ticket.price}</p>
                 </div>
               </Col>
             </Row>
