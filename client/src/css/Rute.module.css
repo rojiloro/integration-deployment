@@ -1,0 +1,58 @@
+@import url("https://fonts.cdnfonts.com/css/avenir");
+* {
+  font-family: Avenir;
+}
+
+/* Rute */
+.ruteContainer {
+  border-radius: 5px;
+  border: 1px solid #b7b7b7;
+  width: 79.6875rem;
+  height: 6.25rem;
+  flex-shrink: 0;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+
+
+.ruteText {
+  color: #000;
+  font-size: 1.125rem;
+  font-weight: 900;
+  margin: 1rem;
+}
+
+.ruteText2 {
+  color: #b7b7b7;
+  font-size: 0.875rem;
+  margin-top: -1rem;
+  margin-left: 1rem;
+}
+.ruteTextGeser {
+  color: #000;
+  font-size: 1.125rem;
+  font-weight: 900;
+  margin: 1rem;
+  margin-left: -11rem;
+}
+
+.ruteText2Geser {
+  color: #b7b7b7;
+  font-size: 0.875rem;
+  margin-top: -1rem;
+  margin-left: -11.3rem;
+}
+
+.ruteImage {
+  margin-left: -4rem;
+  margin-top: 2rem;
+}
+
+.ruteTextGeserPink {
+  color: #ec7a7a;
+  font-size: 1.125rem;
+  font-weight: 900;
+  margin: 1rem;
+  margin-left: -11rem;
+}

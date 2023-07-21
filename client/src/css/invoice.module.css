@@ -1,0 +1,334 @@
+@import url("https://fonts.cdnfonts.com/css/avenir");
+* {
+  font-family: Avenir;
+}
+
+.content1 {
+  width: 49.75rem;
+  border-radius: 0.3125rem;
+  border: 1px solid #bbb;
+  background: #eee;
+  margin-bottom: 1.5rem;
+}
+
+.content2 {
+  background: white;
+  width: 49.75rem;
+  border-radius: 0.3125rem;
+  border: 1px solid #bbb;
+  margin-bottom: 1.5rem;
+}
+
+.content3 {
+  background: white;
+  width: 27.875rem;
+  border-radius: 0.3125rem;
+  border: 1px solid #bbb;
+  margin-bottom: 1.5rem;
+  z-index: 1;
+}
+
+.img1 {
+  padding-top: 3.25rem;
+  padding-left: 2.37rem;
+  padding-bottom: 3.25rem;
+}
+
+.text1 {
+  padding: 3rem 2.37rem 0.8rem;
+}
+
+.shape {
+  border-radius: 0.3125rem 0.3125rem 80px 0.3125rem;
+  border: 1px solid #b7b7b7;
+  width: 11.625rem;
+  height: 2.1445rem;
+  flex-shrink: 0;
+  background: linear-gradient(90deg, #ec7ab7 0%, #ec7a7a 100%);
+  padding-left: 2rem;
+}
+
+.wrap {
+  margin-top: 4.88rem;
+  margin-left: 2.12rem;
+}
+
+.wrap2 {
+  margin-left: 2.12rem;
+  margin-top: 2.13rem;
+}
+
+.abu2 {
+  margin-top: 0.5rem;
+  margin-left: 2.12rem;
+  color: #b1b1b1;
+  font-size: 1.125rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.box {
+  width: 24rem;
+  height: 25.875rem;
+  flex-shrink: 0;
+  background: #f5f5f5;
+  float: right;
+  position: relative;
+  top: -14rem;
+  right: -5rem;
+}
+
+.box2 {
+  width: 24rem;
+  height: 7.1875rem;
+  flex-shrink: 0;
+  background: #d0d0d0;
+}
+
+.h1 {
+  color: #000;
+  font-size: 2.25rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  padding-top: 1.31rem;
+  padding-left: 2.25rem;
+}
+
+.text2 {
+  color: #878787;
+  font-size: 1.125rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 2.25rem;
+}
+
+.img2 {
+  margin-left: -2rem;
+  margin-top: 1.8rem;
+}
+
+.text3 {
+  color: #000;
+  font-size: 1.5rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  margin-top: 1.37rem;
+  margin-left: 2.25rem;
+}
+
+.text4 {
+  color: #000;
+  font-size: 0.875rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -0.44rem;
+  margin-left: 2.25rem;
+}
+
+.bulat {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+  border-radius: 1rem;
+  border: 1px solid salmon;
+  float: left;
+  position: relative;
+  top: 1rem;
+  left: 3rem;
+}
+
+.bulat2 {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+  background-color: salmon;
+  border-radius: 1rem;
+  float: left;
+  position: relative;
+  top: 6.5rem;
+  left: 1.98rem;
+}
+
+.garis {
+  width: 0.0625rem;
+  height: 3.125rem;
+  border-left: 1px solid #d0d0d0;
+  float: left;
+  position: relative;
+  top: 2.5rem;
+  left: 2.46rem;
+}
+
+.posisi1 {
+  margin-left: 3.75rem;
+  margin-top: 2.06rem;
+}
+
+.posisi2 {
+  margin-top: 7.3rem;
+  margin-left: 3rem;
+}
+
+.posisi3 {
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+.text5 {
+  color: #000;
+  font-size: 1.125rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.text6 {
+  color: #959595;
+  font-size: 0.875rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -1rem;
+}
+
+.total {
+  background: #eee;
+  width: 27.875rem;
+  border-radius: 0.3125rem;
+}
+
+.btn {
+  width: 27.875rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  background: linear-gradient(90deg, #ec7ab7 0%, #ec7a7a 100%);
+  border: none;
+  color: #fff;
+  font-size: 1.125rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* modal invoice */
+.title {
+  color: #000;
+  font-size: 3rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.shape2 {
+  border-radius: 0.3125rem 0.3125rem 0.3125rem 80px;
+  border: 1px solid #b7b7b7;
+  width: 11.625rem;
+  height: 2.8rem;
+  flex-shrink: 0;
+  background: linear-gradient(90deg, #ec7ab7 0%, #ec7a7a 100%);
+  padding-left: 2rem;
+  margin-left: 15.5rem;
+  margin-top: -5.21rem;
+}
+
+.inv {
+  color: #767676;
+  font-size: 14px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 1rem;
+  margin-left: 0.3rem;
+}
+
+.api {
+  color: #000;
+  font-size: 36px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.februari {
+  color: #878787;
+  font-size: 16px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: -1.3rem;
+}
+
+.wilis {
+  color: #000;
+  font-size: 24px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 3rem;
+}
+
+.ekse {
+  color: #000;
+  font-size: 0.875rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -0.5rem;
+}
+
+.jam {
+  color: #000;
+  font-size: 1.125rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-left: 2rem;
+  margin-top: 1.8rem;
+}
+
+.date {
+  color: #959595;
+  font-size: 0.875rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -1rem;
+  margin-left: 2rem;
+}
+
+.tunjukan {
+  display: flex;
+  width: 11.25rem;
+  height: 3.1875rem;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Avenir;
+  font-size: 0.6125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 0.5rem;
+}

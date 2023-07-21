@@ -1,0 +1,175 @@
+@import url("https://fonts.cdnfonts.com/css/avenir");
+* {
+  font-family: Avenir;
+}
+
+/* pages home tiket */
+.homeTiketContainer {
+  margin: auto;
+  width: 76.25rem;
+  height: 14.75rem;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
+  position: relative;
+  top: -2rem;
+  z-index: 1;
+}
+
+.tiketKolom {
+  width: 17.75rem;
+  height: 14.75rem;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #f2f2f2;
+  z-index: 1;
+}
+
+.tiketTag {
+  width: 17.75rem;
+  height: 3.3125rem;
+  flex-shrink: 0;
+  background: #fff;
+  margin-top: -3.3rem;
+  padding-left: 1rem;
+}
+
+.tiketKotakOren {
+  width: 0.5625rem;
+  height: 3.3125rem;
+  flex-shrink: 0;
+  background: #e67e22;
+  position: relative;
+  left: -0.7rem;
+  z-index: 1;
+}
+
+.iconTrain {
+  width: 1.875rem;
+  height: 1.875rem;
+  flex-shrink: 0;
+  position: relative;
+  top: 0.8rem;
+  left: -1rem;
+}
+
+.tiketPtext {
+  color: #000;
+  font-size: 1.125rem;
+  font-weight: 300;
+  position: relative;
+  left: 1.5rem;
+  top: -1rem;
+}
+
+.tiketPtext2 {
+  color: #000;
+  font-size: 1.125rem;
+  font-weight: 300;
+  margin-top: 0.5rem;
+  margin-bottom: 0.1rem;
+}
+
+.tiketPtext3 {
+  color: #000;
+  font-size: 1.125rem;
+  font-weight: 800;
+  margin-top: 0.5rem;
+}
+
+.tiketInput {
+  width: 23rem;
+  height: 1.875rem;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 2px solid #b1b1b1;
+  margin-top: -1rem;
+  padding-top: 0.19rem;
+  padding-left: 0.63rem;
+  padding-bottom: 0.13rem;
+}
+
+.imgRounded {
+  width: 3.125rem;
+  height: 3.125rem;
+  flex-shrink: 0;
+  position: relative;
+  top: 2rem;
+  left: 4rem;
+}
+
+.tiketCheckbox {
+  position: relative;
+  left: -1.3rem;
+  top: -2.5rem;
+  left: 14rem;
+}
+
+.tiketPtext4 {
+  color: #000;
+  font-size: 1.125rem;
+  font-weight: 800;
+  margin-top: 0.5rem;
+  position: relative;
+  top: -4.6rem;
+  left: 15.2rem;
+}
+
+.tiketPtext5 {
+  color: #000;
+  font-size: 1.125rem;
+  font-weight: 800;
+  margin-top: 0.5rem;
+  position: relative;
+  left: 3.94rem;
+}
+
+.tiketGrup2 {
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.tiketDate {
+  width: 8.625rem;
+  height: 1.875rem;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 2px solid #b1b1b1;
+  padding: 0.19rem 0.94rem 0.12rem 0.63rem;
+  position: relative;
+  top: -5rem;
+  color: #b1b1b1;
+  font-size: 1.125rem;
+}
+
+.tiketSelect {
+  width: 7.25rem;
+  height: 1.875rem;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 2px solid #b1b1b1;
+  position: relative;
+  top: -1.4rem;
+  margin-right: 1rem;
+  color: #b1b1b1;
+  font-size: 1.125rem;
+}
+
+.tiketSelectP {
+  display: flex;
+}
+
+.btnCari {
+  background: linear-gradient(180deg, #ec7ab7 0%, #ec7a7a 100%);
+  border-radius: 5px;
+  width: 120px;
+  height: 1.875rem;
+  flex-shrink: 0;
+  border: none;
+  padding: 0.19rem 1.56rem 1.5rem;
+  margin-top: -2.52rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 900;
+}

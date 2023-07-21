@@ -1,0 +1,253 @@
+@import url("https://fonts.cdnfonts.com/css/avenir");
+* {
+  font-family: Avenir;
+}
+
+.shape {
+  border-radius: 0.3125rem 0.3125rem 80px 0.3125rem;
+  border: 1px solid #b7b7b7;
+  width: 11.625rem;
+  height: 2.8rem;
+  flex-shrink: 0;
+  background: linear-gradient(90deg, #ec7ab7 0%, #ec7a7a 100%);
+  padding-left: 2rem;
+  margin-left: -0.7rem;
+}
+
+.kode {
+  color: #767676;
+  font-size: 0.8125rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -1rem;
+}
+
+.kereta {
+  color: #000;
+  font-size: 1.5rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.day {
+  color: #878787;
+  font-size: 0.875rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: -1rem;
+}
+
+.img {
+  width: 3.125rem;
+  height: 3.125rem;
+  flex-shrink: 0;
+}
+
+.tck {
+  color: #000;
+  font-size: 0.75rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.argo {
+  color: #000;
+  font-size: 1.125rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  margin-top: 2.69rem;
+}
+
+.ekse {
+  color: #000;
+  font-size: 0.75rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -1rem;
+}
+
+.bulat {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+  border-radius: 1rem;
+  border: 1px solid salmon;
+  float: left;
+  position: relative;
+  top: 1rem;
+  left: -1rem;
+}
+
+.bulat2 {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+  background-color: salmon;
+  border-radius: 1rem;
+  float: left;
+  position: relative;
+  top: 6.5rem;
+  left: -2rem;
+}
+
+.garis {
+  width: 0.0625rem;
+  height: 3.125rem;
+  border-left: 1px solid #d0d0d0;
+  float: left;
+  position: relative;
+  top: 2.5rem;
+  left: -1.5rem;
+}
+
+.jam {
+  color: #000;
+  font-size: 0.875rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.date {
+  color: #959595;
+  font-size: 0.75rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -1rem;
+  margin-left: 2rem;
+}
+
+.stasiun {
+  color: #959595;
+  font-size: 0.75rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -1rem;
+}
+
+.tanda {
+  color: #000;
+  font-size: 0.875rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 1.5rem;
+}
+
+.identitas {
+  color: #b1b1b1;
+  font-size: 0.875rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.abuAbu {
+  width: 100%;
+  height: 2.875rem;
+  flex-shrink: 0;
+  background: #e6e6e6;
+  padding-top: 0.37rem;
+  padding-left: 1.31rem;
+  margin-bottom: 0.69rem;
+}
+
+.total {
+  color: #000;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  display: flex;
+  width: 4rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.totalAngka {
+  display: flex;
+  width: 8.375rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #ff0742;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: -3rem;
+  margin-left: 20rem;
+}
+
+/* modal edit admin */
+.inputAbu2 {
+  width: 21.875rem;
+  height: 3.0625rem;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  border: 2px solid #b1b1b1;
+  background: rgba(196, 196, 196, 0.5);
+  margin: 5.18rem auto 2.13rem auto;
+}
+
+.inputwhite {
+  width: 21.875rem;
+  height: 3.0625rem;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  border: 2px solid #b1b1b1;
+  margin: 5.18rem auto 2.13rem auto;
+}
+
+.textInput {
+  display: flex;
+  height: 1.715rem;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #b1b1b1;
+  font-size: 1.5rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0.69rem 0.56rem;
+}
+
+.anjir {
+  display: flex;
+  width: 13.6875rem;
+  height: 1.6875rem;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  font-size: 1.5rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0.69rem 0.56rem;
+}

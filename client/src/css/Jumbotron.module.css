@@ -1,0 +1,49 @@
+@import url("https://fonts.cdnfonts.com/css/avenir");
+* {
+  font-family: Avenir;
+}
+
+/* pages home jumbotron*/
+.homeJumbotron {
+  width: 100%;
+  height: 18.75rem;
+  margin-top: 3rem;
+  flex-shrink: 0;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(90deg, #ec7ab7 0%, #ec7a7a 100%);
+}
+
+.homeText {
+  color: #fff;
+  font-size: 2.25rem;
+  font-weight: 900;
+  margin-top: 3.37rem;
+}
+
+.homeTextKedua {
+  color: #fff;
+  margin-bottom: 0.25rem;
+  font-size: 1.5rem;
+}
+
+.homeImage1 {
+  width: 32.875rem;
+  height: 13.1875rem;
+  flex-shrink: 0;
+  margin-top: 1.44rem;
+  z-index: 1;
+  position: absolute;
+}
+
+.homeImage2 {
+  width: 32.875rem;
+  height: 13.1875rem;
+  margin-top: 1.44rem;
+  flex-shrink: 0;
+  z-index: 0;
+  position: relative;
+  top: 1.17rem;
+  left: 1.62rem;
+  right: 1.63rem;
+  bottom: 0.75rem;
+}

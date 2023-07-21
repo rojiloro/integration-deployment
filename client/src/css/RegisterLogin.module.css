@@ -1,0 +1,102 @@
+@import url("https://fonts.cdnfonts.com/css/avenir");
+* {
+  font-family: Avenir;
+}
+/* register */
+.container {
+  height: 30.625rem;
+  font-size: 2.25rem;
+}
+
+.b {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.scroll {
+  height: 30.625rem;
+  overflow-y: scroll;
+}
+/* register dan login */
+.h1 {
+  margin: 3.19rem auto;
+  background: -webkit-linear-gradient(#ec7ab7 0%, #ec7a7a 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.formGroup {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Input {
+  display: block;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: 2px solid #b1b1b1;
+  color: #b1b1b1;
+  font-size: 1.3rem;
+  margin: 2.06rem auto;
+  flex-shrink: 0;
+  width: 80%;
+}
+
+.btn {
+  margin: 4.12 rem auto;
+  border-radius: 50px;
+  background: linear-gradient(180deg, #ec7ab7 0%, #ec7a7a 100%);
+  width: 50%;
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "Avenir", sans-serif;
+  font-weight: 800;
+  border: none;
+}
+
+.p {
+  border-radius: 10px;
+  background: #fff;
+  color: #b1b1b1;
+  font-size: 1.125rem;
+  margin-top: 20px;
+}
+/* button login */
+.btnLogin {
+  background: linear-gradient(180deg, #ec7ab7 0%, #ec7a7a 100%);
+  border-radius: 5px;
+  width: 7rem;
+  height: 2.5625rem;
+  flex-shrink: 0;
+  border: none;
+}
+/* button register */
+.btnRegister {
+  background: white;
+  color: #ec7ab7;
+  border-radius: 5px;
+  width: 7rem;
+  height: 2.5625rem;
+  flex-shrink: 0;
+  border: 1px solid #ec7ab7;
+}
+
+.btnRegister:hover {
+  background: linear-gradient(180deg, #ec7ab7 0%, #ec7a7a 100%);
+  border: none;
+}
+/* textarea register */
+.textarea {
+  resize: none;
+  display: block;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: 2px solid #b1b1b1;
+  color: #b1b1b1;
+  font-size: 1.3rem;
+  margin: 2.06rem auto;
+  flex-shrink: 0;
+  width: 80%;
+}

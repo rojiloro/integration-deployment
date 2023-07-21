@@ -1,0 +1,47 @@
+@import url("https://fonts.cdnfonts.com/css/avenir");
+/* navigasi */
+* {
+  font-family: Avenir;
+}
+.navbar {
+  background: #fff;
+  box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 3.75rem;
+  flex-shrink: 0;
+}
+
+.btnLogin {
+  background: linear-gradient(180deg, #ec7ab7 0%, #ec7a7a 100%);
+  border-radius: 5px;
+  width: 7rem;
+  height: 2.5625rem;
+  flex-shrink: 0;
+  border: none;
+}
+/* button register */
+.btnRegister {
+  background: white;
+  color: #ec7ab7;
+  border-radius: 5px;
+  width: 7rem;
+  height: 2.5625rem;
+  flex-shrink: 0;
+  border: 1px solid #ec7ab7;
+}
+
+.btnRegister:hover {
+  background: linear-gradient(180deg, #ec7ab7 0%, #ec7a7a 100%);
+  border: none;
+}
+
+.user {
+  color: #ec7ab7;
+  font-size: 1.5rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}

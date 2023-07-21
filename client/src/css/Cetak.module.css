@@ -1,0 +1,211 @@
+@import url("https://fonts.cdnfonts.com/css/avenir");
+* {
+  font-family: Avenir;
+}
+
+.cetakh1 {
+  color: #000;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 4.25rem;
+}
+
+.wrap {
+  width: 64.6875rem;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  border: 1px solid #b7b7b7;
+}
+
+.shape {
+  border-radius: 0.3125rem 0.3125rem 80px 0.3125rem;
+  border: 1px solid #b7b7b7;
+  width: 11.625rem;
+  height: 2.8rem;
+  flex-shrink: 0;
+  background: linear-gradient(90deg, #ec7ab7 0%, #ec7a7a 100%);
+  padding-left: 2rem;
+}
+
+.text1 {
+  color: #000;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 1.99rem;
+  margin-left: 2.19rem;
+}
+
+.text2 {
+  color: #000;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0.2rem;
+  margin-left: 2.19rem;
+}
+
+.pending {
+  text-align: center;
+  font-size: 0.75rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.2;
+  margin: 0.25rem auto;
+  color: #f7941e;
+}
+
+.box {
+  margin-left: 2.1rem;
+}
+
+.heading {
+  color: #000;
+  font-size: 1.025rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 5rem;
+  margin-left: 2.13rem;
+  position: relative;
+  top: 1.5rem;
+}
+
+.heading1 {
+  position: relative;
+  top: 5rem;
+  left: 2rem;
+}
+
+.text3 {
+  color: #b1b1b1;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 2.13rem;
+}
+
+.text4 {
+  color: #000;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 2.5rem;
+  margin-left: 2rem;
+}
+
+.text5 {
+  color: #959595;
+  font-size: 0.875rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0.2 rem;
+  margin-left: 2rem;
+}
+
+.text6 {
+  float: right;
+  color: #000;
+  font-size: 2.25rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  position: relative;
+  top: -2.5rem;
+  right: 0.94rem;
+}
+
+.text7 {
+  color: #878787;
+  font-size: 1.125rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: right;
+  display: inline-block;
+  margin-right: 2rem;
+  position: absolute;
+  top: 15rem;
+  right: 11.8rem;
+}
+
+.wrapText {
+  margin-top: -1rem;
+}
+
+.tanda {
+  margin-top: -1.4rem;
+}
+
+.identitas {
+  border: none;
+  height: 4px;
+  width: 75%;
+  background-color: #b1b1b1;
+}
+
+.bulat {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+  border-radius: 1rem;
+  border: 1px solid salmon;
+  float: left;
+  position: relative;
+  top: 4.5rem;
+}
+
+.bulat2 {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+  background-color: salmon;
+  border-radius: 1rem;
+  float: left;
+  position: relative;
+  top: 9.8rem;
+  right: 1.05rem;
+}
+
+.garis {
+  width: 0.0625rem;
+  height: 3.125rem;
+  border-left: 1px solid #d0d0d0;
+  float: left;
+  position: relative;
+  top: 6rem;
+  right: 0.55rem;
+}
+
+.email {
+  float: right;
+  position: relative;
+  right: 10rem;
+  top: 13.05rem;
+}
+
+.mail {
+  margin-left: -3rem;
+}
+
+.btn {
+  width: 12.875rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  background: linear-gradient(90deg, #ec7ab7 0%, #ec7a7a 100%);
+  margin-top: -1rem;
+  margin-right: 0.94rem;
+  border: none;
+}
