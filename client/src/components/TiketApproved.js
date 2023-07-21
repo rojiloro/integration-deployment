@@ -86,7 +86,7 @@ function TiketApproved(props) {
               </Col>
               <Col s={2}>
                 <Button className={cssModules.btn} onClick={() => setShowApproved(true)}>
-                  Bayar Sekarang
+                  Cetak Tiket
                 </Button>
               </Col>
             </Row>
