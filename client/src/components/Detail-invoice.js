@@ -204,7 +204,7 @@ function Detailinvoice() {
                   <p style={{ fontSize: "1.5rem", marginLeft: "2rem" }}>Total</p>
                 </Col>
                 <Col m={6}>
-                  <p style={{ fontSize: "1.5rem", fontWeight: "900", marginLeft: "2rem" }}>Rp 250.000</p>
+                  <p style={{ fontSize: "1.5rem", fontWeight: "900", marginLeft: "2rem" }}>Rp {transaction?.ticket.price}</p>
                 </Col>
               </Row>
             </div>
