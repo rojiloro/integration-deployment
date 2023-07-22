@@ -46,7 +46,7 @@ function Tiket() {
                   <p className={cssModules.text2}>{data.ticket.type_train}</p>
                   <div className={cssModules.box}>
                     {data.status === "success" ? (
-                      <div className="alert alert-success d-inline-block">{data.status === "success" && <p className={cssModules.pending}>{data.status}</p>}</div>
+                      <div className="alert alert-success d-inline-block">{data.status === "success" && <p className={cssModules.approved}>{data.status}</p>}</div>
                     ) : (
                       <div className="alert alert-warning d-inline-block">{data.status === "pending" && <p className={cssModules.pending}>{data.status}</p>}</div>
                     )}

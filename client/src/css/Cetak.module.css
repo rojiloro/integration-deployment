@@ -60,6 +60,17 @@
   color: #f7941e;
 }
 
+.approved {
+  text-align: center;
+  font-size: 0.75rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.2;
+  margin: 0.25rem auto;
+  color: #65f100;
+}
+
 .box {
   margin-left: 2.1rem;
 }
