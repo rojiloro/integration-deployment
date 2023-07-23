@@ -14,7 +14,9 @@
   cursor: pointer;
 }
 
-
+.ruteContainer:hover{
+  border: 1px solid #ec7a7a;
+}
 
 .ruteText {
   color: #000;
