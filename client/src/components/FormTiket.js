@@ -61,7 +61,9 @@ function FormTiket() {
                   <div className={cssModules.tiketGrup}>
                     <p className={cssModules.tiketPtext3}>Asal</p>
                     <select className={cssModules.tiketInput} name="start_station_id" value={form.start_station_id} onChange={handleChange}>
-                      <option hidden>Stasiun keberangkatan</option>
+                      <option hidden style={{ padding: "1rem" }}>
+                        Stasiun keberangkatan
+                      </option>
                       {stations.map((item, index) => (
                         <option key={index} value={item.id}>
                           {item.name}
