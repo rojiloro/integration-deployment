@@ -14,10 +14,9 @@
   cursor: pointer;
 }
 
-.ruteContainer:hover{
-  border: 1px solid #ec7a7a;
-  box-shadow: 0px 0px 10px rgba(rgb(255, 151, 151),);
-  
+.ruteContainer:hover {
+  border: 8px solid #ec7a7a;
+  box-shadow: 0px 0px 10px rgba(rgb(255, 151, 151));
 }
 
 .ruteText {
