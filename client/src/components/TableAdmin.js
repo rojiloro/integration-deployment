@@ -11,7 +11,7 @@ function TableAdmin() {
   const [show, setShow] = useState(false);
   const [showEdit, setEditShow] = useState(false);
 
-  let { data: transactions } = useQuery("transactionCache", async () => {
+  let { data: transactions, refetch } = useQuery("transactionCache", async () => {
     const response = await API.get("/transaction");
     console.log("lu apa si: ", response.data.data);
     return response.data.data;
