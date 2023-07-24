@@ -15,7 +15,7 @@
 }
 
 .ruteContainer:hover {
-  border: 3px solid #ec7a7a;
+  border: 2px solid #ec7a7a;
   box-shadow: 0px 0px 10px rgba(rgb(255, 151, 151));
 }
 
